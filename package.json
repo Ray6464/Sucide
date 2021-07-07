@@ -1,0 +1,29 @@
+{
+  "name": "sucide",
+  "version": "1.0.0",
+  "description": "A simple utility library to kill a process in various circumstances!",
+  "main": "sucide.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ray6464/Sucide.git"
+  },
+  "keywords": [
+    "console",
+    "sucide",
+    "homocide",
+    "murder",
+    "ray-userland",
+    "process",
+    "kill",
+    "exit"
+  ],
+  "author": "Ray Voice",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ray6464/Sucide/issues"
+  },
+  "homepage": "https://github.com/Ray6464/Sucide#readme"
+}
