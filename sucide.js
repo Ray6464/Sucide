@@ -1,14 +1,15 @@
 
-function sucide(note) {
+function sucide(note) { // log note then kill
   if (note !== undefined) { console.log(note) }
   process.exit();
 }
 
-function murder(person, note) {
+function murder(person, note) { // if person === false log note then kill
   if (person === undefined) { sucide("Don't murder an unidentified person!") }
-  if (!person) { sucide("The provided victim is already dead!") }
-  if (note !== undefined) { sucide(note) }
-  sucide();
+  if (!person) {
+    if (note !== undefined) { sucide(note) }
+    else { sucide() }
+  }
 }
 
 function homicide(victim, note) {

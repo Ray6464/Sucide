@@ -1,6 +1,6 @@
 {
   "name": "sucide",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple utility library to kill a process in various circumstances!",
   "main": "sucide.min.js",
   "scripts": {
